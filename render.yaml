@@ -1,0 +1,29 @@
+services:
+  # ── Backend: FastAPI ──────────────────────────────────────────────────────
+  - type: web
+    name: carpetaos-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    plan: free
+    envVars:
+      - key: PORT
+        value: 8000
+    healthCheckPath: /api/health
+
+  # ── Frontend: Vue 3 Static Site ──────────────────────────────────────────
+  - type: web
+    name: carpetaos-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    plan: free
+    envVars:
+      - key: VITE_API_URL
+        value: https://carpetaos-api.onrender.com/api
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

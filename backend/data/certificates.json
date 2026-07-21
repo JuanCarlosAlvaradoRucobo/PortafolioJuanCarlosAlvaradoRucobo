@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "AWS Cloud Practitioner",
+    "issuer": "Amazon Web Services",
+    "date": "2025-09-15",
+    "credential_id": "AWS-CP-2025-JCAR",
+    "url": "https://aws.amazon.com/verification",
+    "image": null,
+    "category": "Cloud"
+  },
+  {
+    "id": 2,
+    "name": "Python for Data Science",
+    "issuer": "IBM — Coursera",
+    "date": "2025-06-20",
+    "credential_id": "IBM-PDS-2025",
+    "url": "https://coursera.org/verify/IBM-PDS-2025",
+    "image": null,
+    "category": "Data Science"
+  },
+  {
+    "id": 3,
+    "name": "Network Security Fundamentals",
+    "issuer": "Cisco Networking Academy",
+    "date": "2025-03-10",
+    "credential_id": "CISCO-NSF-JCAR-2025",
+    "url": "https://netacad.com/verify",
+    "image": null,
+    "category": "Cybersecurity"
+  },
+  {
+    "id": 4,
+    "name": "Vue.js Advanced Developer",
+    "issuer": "Vue School",
+    "date": "2024-11-05",
+    "credential_id": "VS-ADV-2024-1142",
+    "url": "https://vueschool.io/certificates",
+    "image": null,
+    "category": "Frontend"
+  },
+  {
+    "id": 5,
+    "name": "Docker & Kubernetes Essentials",
+    "issuer": "Linux Foundation",
+    "date": "2024-08-18",
+    "credential_id": "LF-DKE-2024-0887",
+    "url": "https://training.linuxfoundation.org",
+    "image": null,
+    "category": "DevOps"
+  },
+  {
+    "id": 6,
+    "name": "FastAPI & Modern Python APIs",
+    "issuer": "TestDriven.io",
+    "date": "2024-05-30",
+    "credential_id": "TDI-FAPI-2024",
+    "url": "https://testdriven.io",
+    "image": null,
+    "category": "Backend"
+  }
+]
